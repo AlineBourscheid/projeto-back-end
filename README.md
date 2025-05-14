@@ -23,8 +23,8 @@ Este projeto tem como objetivo o desenvolvimento de uma API RESTful para o geren
 
 1. Clone o repositório:
 ```bash
-git clone https://github.com/seu-usuario/sghss-vidaplus.git
-cd sghss-vidaplus
+git clone https://github.com/alinebourscheid/projeto-back-end.git
+cd sghss_api
 ```
 
 2. Crie um ambiente virtual e ative:
@@ -95,7 +95,7 @@ DELETE /paciente/<id>/
 ## Cadastro via formulário (Signup)
 
 ```bash
-curl http://127.0.0.1:8000/signup/ -X POST -d "username=elian2&password1=aline%40teste1&password2=aline%40teste1"
+curl http://127.0.0.1:8000/signup/ -X POST -d "username=aline2&password1=aline%40teste1&password2=aline%40teste1"
 ```
 
 ---
